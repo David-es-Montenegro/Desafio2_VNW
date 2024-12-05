@@ -1,0 +1,84 @@
+.Home {
+    width: 100%;
+    
+    .containerImgTxt {
+      background-color: white;
+      width: 100%;
+      height: 547px;
+  
+      .homeImg {
+        width: 100%;
+        height: auto;
+      }
+  
+      .homeTxt {
+        position: relative;
+        left: 8vw;
+        bottom: 35vh;
+  
+        font-family: Arial;
+        font-weight: 700;
+        font-size: 200%;
+  
+        width: 25%;
+        color: white;
+      }
+    }
+
+    .txtContainer{
+        color: #005695;
+        font-family: Arial;
+        font-weight: 500;
+        font-size: 200%;
+
+        margin-top: 6.5%;
+        margin-left: 6.5%;
+    }
+  
+    .containerCards {
+      width: 100%;
+      height: 400px;
+      background-color: white;
+  
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 5%;
+      align-items: center;
+  
+      .card {
+        width: 18%;
+        height: 300px;
+        background-color: #0157944D;
+
+        border-radius: 5%;
+
+        display: inline-block;
+        // flex-direction: column;
+        // gap: 5%;
+        // align-items: center;
+        // justify-content: center;
+
+        .cardImg {
+            position: relative;
+            top: 10%;
+            left: 25%;
+            width: 50%;
+            height: auto;
+        }
+  
+        .cardTxt {
+            position: relative;
+            top: 15%;
+            left: 10%;
+
+            font-family: Arial;
+            font-weight: 400;
+            font-size: 100%;
+            text-align: center;
+            width: 80%;
+            color: black;
+        }
+      }
+    }
+  }
