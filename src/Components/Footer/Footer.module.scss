@@ -1,0 +1,64 @@
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+
+    .footerSuperior{
+        width: 100%;
+        height: 120px;
+        background-color: #005695;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 47%;
+
+        .footerTelefone{
+            // background-color: red;
+            width: 20%;
+            font-family: Arial;
+            font-weight: 500;
+            font-size: 100%;
+            color: white;
+        }
+
+        .containerRedes{
+            width: 20%;
+            height: 66%;
+            // background-color: red;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .linkRedes{
+            width: 15%;
+            height: auto;
+        }
+
+        .iconeRedes{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .footerInferior{
+        width: 100%;
+        height: 68px;
+        background-color: #232020;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .footerDesignedBy{
+            font-family: Arial;
+            font-weight: 500;
+            font-size: 100%;
+            color: white;
+        }
+    }
+}
